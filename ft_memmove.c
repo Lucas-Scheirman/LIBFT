@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/10 17:55:08 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/16 12:42:27 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/03/21 11:47:37 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,25 +14,29 @@
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
-	size_t		i;
-	char		*d;
-	const char	*s;
+	size_t				i;
+	unsigned char		*str1;
+	const unsigned char	*str2;
 
-	i = 0;
-	d = (char *)dest;
-	s = (const char *)src;
-	if (d < s)
+	if (n == 0)
+		return (dest);
+	str1 = (unsigned char *)dest;
+	str2 = (const unsigned char *)src;
+	if (str1 < str2)
 	{
+		i = 0;
 		while (i < n)
 		{
-			d[i] = s[i];
+			str1[i] = str2[i];
 			i++;
 		}
 	}
 	else
 	{
 		while (n--)
-			d[n] = s[n];
+			str1[n] = str2[n];
 	}
-	return (d);
+	return (dest);
 }
+/* Copie n octets depuis src vers dest.
+** Gere correctement les zones memoire qui se chevauchent. */

@@ -18,3 +18,5 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
+
+/* Retourne 1 si c est un caractere ASCII valide (0-127), 0 sinon. */

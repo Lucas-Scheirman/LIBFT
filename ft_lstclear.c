@@ -24,3 +24,6 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 	}
 	*lst = NULL;
 }
+
+/* Libere tous les noeuds de la liste avec del et free.
+** Met le pointeur de liste a NULL. */

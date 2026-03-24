@@ -24,3 +24,5 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (i);
 }
+
+/* Retourne le nombre de noeuds dans la liste. */

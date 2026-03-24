@@ -18,3 +18,5 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
+
+/* Retourne 1 si c est un caractere imprimable (32-126), 0 sinon. */

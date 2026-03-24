@@ -18,3 +18,5 @@ int	ft_isdigit(int c)
 		return (1);
 	return (0);
 }
+
+/* Retourne 1 si c est un chiffre entre 0 et 9, 0 sinon. */

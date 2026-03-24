@@ -25,3 +25,6 @@ char	*ft_strdup(const char *s)
 	str[len] = 0;
 	return (str);
 }
+
+/* Duplique la string s dans une nouvelle zone allouee.
+** Retourne NULL si l'allocation echoue. */

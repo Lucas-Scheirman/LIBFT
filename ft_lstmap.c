@@ -33,3 +33,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_lst);
 }
+
+/* Itere sur la liste,
+	applique f a chaque contenu et retourne la nouvelle liste.
+** Utilise del pour liberer en cas d'echec d'allocation. */

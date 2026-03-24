@@ -18,3 +18,5 @@ int	ft_toupper(int c)
 		c -= 32;
 	return (c);
 }
+
+/* Convertit le caractere c en majuscule si c'est une minuscule. */

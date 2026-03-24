@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/07 15:27:42 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/16 19:16:08 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/03/22 00:24:35 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,13 @@
 
 int	ft_atoi(const char *nptr)
 {
-	long	result;
-	int		i;
+	int	result;
 	int		neg;
+	size_t	i;
 
 	result = 0;
-	i = 0;
 	neg = 1;
+	i = 0;
 	while (nptr[i] == ' ' || (nptr[i] >= 9 && nptr[i] <= 13))
 		i++;
 	if (nptr[i] == '-' || nptr[i] == '+')
@@ -34,5 +34,8 @@ int	ft_atoi(const char *nptr)
 		result = result * 10 + (nptr[i] - '0');
 		i++;
 	}
-	return (result * neg);
+	return ((result * neg));
 }
+
+/* Convertit la string nptr en entier. Ignore les espaces
+** en debut, gere le signe + et -. */

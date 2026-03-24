@@ -18,3 +18,5 @@ int	ft_tolower(int c)
 		c += 32;
 	return (c);
 }
+
+/* Convertit le caractere c en minuscule si c'est une majuscule. */

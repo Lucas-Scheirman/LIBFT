@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/10 23:46:11 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/16 12:39:44 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/03/18 23:43:21 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,16 @@ void	*ft_calloc(size_t nmemb, size_t size)
 {
 	char	*ptr;
 
+	if (nmemb == 0 || size == 0)
+		return (malloc(1));
+	if (nmemb > SIZE_MAX / size)
+		return (NULL);
 	ptr = malloc(nmemb * size);
 	if (ptr == NULL)
 		return (NULL);
 	ft_memset(ptr, 0, nmemb * size);
 	return (ptr);
 }
+
+/* Alloue nmemb * size octets initialises a zero.
+** Retourne un pointeur unique si nmemb ou size vaut 0. */

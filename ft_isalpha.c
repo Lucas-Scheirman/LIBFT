@@ -18,3 +18,5 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
+
+/* Retourne 1 si c est une lettre alphabetique, 0 sinon. */

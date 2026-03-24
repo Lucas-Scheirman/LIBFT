@@ -1,11 +1,8 @@
 NAME		= libft.a
-
 CC		= cc
 CFLAGS		= -Wall -Wextra -Werror
-
 AR		= ar rcs
 RM		= rm -f
-
 SRCS		= ft_isalpha.c \
 		  ft_isdigit.c \
 		  ft_isalnum.c \
@@ -48,21 +45,14 @@ SRCS		= ft_isalpha.c \
 		  ft_lstdelone.c \
 		  ft_lstclear.c \
 		  ft_lstiter.c \
-		  ft_lstmap.c
-
+		  ft_lstmap.c \
 OBJS		= $(SRCS:.c=.o)
-
 all:		$(NAME)
-
 $(NAME):	$(OBJS)
 		$(AR) $(NAME) $(OBJS)
-
 clean:
 		$(RM) $(OBJS)
-
 fclean:		clean
 		$(RM) $(NAME)
-
 re:		fclean all
-
 .PHONY:		all clean fclean re

@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/08 07:33:06 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/16 12:42:31 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/03/18 13:14:54 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,20 @@
 
 void	*ft_memset(void *s, int c, size_t n)
 {
-	size_t	i;
-	char	*str;
+	size_t			i;
+	unsigned char	char1;
+	unsigned char	*str1;
 
+	char1 = (unsigned char)c;
+	str1 = (unsigned char *)s;
 	i = 0;
-	str = (char *)s;
 	while (i < n)
 	{
-		str[i] = c;
+		str1[i] = char1;
 		i++;
 	}
 	return (s);
 }
+
+/* Remplit les n premiers octets de s avec la valeur c.
+** Retourne un pointeur sur s. */

@@ -25,3 +25,5 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
+
+/* Applique f a chaque caractere de s avec son index, modifie s en place. */

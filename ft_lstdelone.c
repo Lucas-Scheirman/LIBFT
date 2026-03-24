@@ -19,3 +19,6 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *))
 	del(lst->content);
 	free(lst);
 }
+
+/* Libere le contenu du noeud avec del puis libere le noeud.
+** Ne libere pas le noeud suivant. */

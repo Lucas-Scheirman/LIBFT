@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/16 10:00:44 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/16 10:00:54 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/03/18 19:41:28 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,6 @@ t_list	*ft_lstnew(void *content)
 	list->next = NULL;
 	return (list);
 }
+
+/* Alloue et retourne un nouveau noeud avec content initialise
+**et next a NULL. */

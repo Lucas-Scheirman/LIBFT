@@ -1,28 +1,23 @@
 *Ce projet a été créé dans le cadre du cursus 42 par lscheirm.*
 
-# Libft
-
 ## Description
 
-Libft est une bibliothèque écrite en C, créée dans le cadre du cursus 42.
-L'objectif est de recoder soi-même des fonctions de la bibliothèque standard C, ainsi que des fonctions utilitaires supplémentaires.
-Cette bibliothèque sera réutilisée dans les projets suivants du cursus.
+Codage de ma bibliothèque libft. Basé sur le man officiel. Codage de fonctions utilitaires supplémentaires. A pour objectif de
+pouvoir être réutilisé dans le cursus 42 sur les projets suivants. Et d'apprendre les bases en c.
 
 ## Instructions
 
 Compiler la bibliothèque :
 
-    make
+```bash
+make
+```
 
 Utiliser la bibliothèque dans un projet :
 
-    cc votre_fichier.c -L. -lft -o votre_programme
-
-Autres commandes :
-
-    make clean   supprime les fichiers objets
-    make fclean  supprime les fichiers objets et libft.a
-    make re      recompile tout depuis zéro
+```bash
+cc votre_fichier.c -L. -lft -o votre_programme
+```
 
 ## Description de la bibliothèque
 
@@ -80,12 +75,9 @@ Partie 3 — Listes chaînées (manipulation de listes avec la structure t_list)
 
 ## Ressources
 
-Pages man C : https://man7.org/linux/man-pages/
-Norminette 42 : https://github.com/42School/norminette
-AddressSanitizer : https://clang.llvm.org/docs/AddressSanitizer.html
-Guide Markdown : https://www.markdownguide.org
+- [Pages man C](https://man7.org/linux/man-pages/)
+- [Norminette 42](https://github.com/42School/norminette)
+- [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
+- [Guide Markdown](https://www.markdownguide.org)
 
-## Utilisation de l'IA
-
-L'IA (Claude) a été utilisée uniquement après avoir écrit le code de façon indépendante, pour relire la logique des fonctions, analyser les erreurs ASan et clarifier des concepts.
-L'IA n'a pas été utilisée pour écrire les fonctions à ma place.
+L'IA a été utilisée pour comprendre des notions que je ne comprenais pas, comme les unsigneds ou les listes chaînées. Elle a été utilisée aussi pour comprendre les spécificités de `size_t` et le fonctionnement du castement. Elle m'a permis aussi de comprendre la syntaxe du Makefile et les listes chainés. Leur fonctionnement en mémoire. traduction des fonctionalité des fonction en francais mis dans le `README.md` et dans mes fichier c en commentaire. Elle m'a permis aussi d'améliorer mon fichier de test pour vérifier si j'avais testé tous les cas possibles.

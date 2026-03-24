@@ -16,14 +16,16 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*tab;
 	size_t	i;
+	size_t	slen;
 
-	i = 0;
 	if (!s)
 		return (NULL);
-	if (start >= (unsigned int)ft_strlen(s))
+	slen = ft_strlen(s);
+	if (start >= (unsigned int)slen)
 		return (ft_strdup(""));
-	if (len > ft_strlen(s) - start)
-		len = ft_strlen(s) - start;
+	if (len > slen - start)
+		len = slen - start;
+	i = 0;
 	tab = malloc(len + 1);
 	if (!tab)
 		return (NULL);
@@ -36,3 +38,6 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	tab[i] = 0;
 	return (tab);
 }
+
+/* Alloue et retourne une sous-chaine de s,
+	depuis start sur len caracteres max. */

@@ -24,3 +24,5 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	lst_ = ft_lstlast(*lst);
 	lst_->next = new;
 }
+
+/* Ajoute le noeud new en fin de liste. */

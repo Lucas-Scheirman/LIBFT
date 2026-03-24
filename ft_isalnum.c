@@ -19,3 +19,5 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
+
+/* Retourne 1 si c est une lettre ou un chiffre, 0 sinon. */

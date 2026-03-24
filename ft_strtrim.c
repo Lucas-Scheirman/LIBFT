@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/16 09:46:58 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/16 09:47:02 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/03/18 19:42:30 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,3 +62,6 @@ char	*ft_strtrim(char const *s1, char const *set)
 	init_tab(i, y, str, s1);
 	return (str);
 }
+
+/* Alloue et retourne une copie de s1 sans les
+**caracteres de set en debut et fin. */

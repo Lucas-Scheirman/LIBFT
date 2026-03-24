@@ -20,3 +20,5 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		lst = lst->next;
 	}
 }
+
+/* Itere sur la liste et applique f au contenu de chaque noeud. */
