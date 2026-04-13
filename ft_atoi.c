@@ -36,7 +36,6 @@ int	ft_atoi(const char *nptr)
 			return (-1);
 		if (result < 0 && neg == -1)
 			return (0);
-
 		i++;
 	}
 	return ((int)(result * neg));
