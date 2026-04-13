@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/11 00:05:03 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/16 12:44:18 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 17:55:34 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,3 @@ char	*ft_strdup(const char *s)
 	str[len] = 0;
 	return (str);
 }
-
-/* Duplique la string s dans une nouvelle zone allouee.
-** Retourne NULL si l'allocation echoue. */

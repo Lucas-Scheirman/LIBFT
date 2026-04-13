@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/08 06:12:06 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/20 15:50:32 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 18:04:46 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,3 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
-
-/* Retourne la longueur de la string s */

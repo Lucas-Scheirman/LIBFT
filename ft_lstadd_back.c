@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/16 10:11:03 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/16 10:11:05 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 16:17:08 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,3 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	lst_ = ft_lstlast(*lst);
 	lst_->next = new;
 }
-
-/* Ajoute le noeud new en fin de liste. */

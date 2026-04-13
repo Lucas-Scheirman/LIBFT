@@ -16,5 +16,3 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
-
-/* Ecrit le caractere c sur le file descriptor fd. */

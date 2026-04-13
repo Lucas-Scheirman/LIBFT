@@ -48,5 +48,3 @@ void	ft_putnbr_fd(int nb, int fd)
 	else
 		tab_convert(nb, fd);
 }
-
-/* Ecrit l'entier n sur le file descriptor fd. */

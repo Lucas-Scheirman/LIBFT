@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/18 13:57:56 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/18 17:18:34 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 17:51:34 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,3 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)&str1[i]);
 	return (NULL);
 }
-
-/* Cherche la derniere occurrence de c dans la string s.
-** Retourne un pointeur sur le caractere trouve, NULL sinon. */

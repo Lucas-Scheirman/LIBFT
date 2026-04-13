@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/18 13:58:40 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/18 13:58:42 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 16:22:19 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-
-/* Cherche la premiere occurrence de c dans les n premiers octets de s.
-** Retourne un pointeur sur l'octet trouve, NULL sinon. */

@@ -80,4 +80,5 @@ Partie 3 — Listes chaînées (manipulation de listes avec la structure t_list)
 - [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
 - [Guide Markdown](https://www.markdownguide.org)
 
-L'IA a été utilisée pour comprendre des notions que je ne comprenais pas, comme les unsigneds ou les listes chaînées. Elle a été utilisée aussi pour comprendre les spécificités de `size_t` et le fonctionnement du castement. Elle m'a permis aussi de comprendre la syntaxe du Makefile et les listes chainés. Leur fonctionnement en mémoire. traduction des fonctionalité des fonction en francais mis dans le `README.md` et dans mes fichier c en commentaire. Elle m'a permis aussi d'améliorer mon fichier de test pour vérifier si j'avais testé tous les cas possibles.
+L'IA a été utilisée pour comprendre des notions que je ne comprenais pas, comme les unsigneds ou les listes chaînées. Elle a été utilisée aussi pour comprendre les spécificités de `size_t` et le fonctionnement du castement. Elle m'a permis aussi de comprendre la syntaxe du Makefile et les listes chainés.
+Leur fonctionnement en mémoire. traduction des fonctionalité des fonction en francais mis dans le `README.md` et dans mes fichier c en commentaire. Elle m'a permis aussi d'améliorer mon fichier de test pour vérifier si j'avais testé tous les cas possibles.

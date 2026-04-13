@@ -62,6 +62,3 @@ char	*ft_itoa(int n)
 	tab_with_my_number[size + i] = '\0';
 	return (tab_with_my_number);
 }
-
-/* Alloue et retourne la representation en string de l'entier n.
-** Gere les nombres negatifs. */

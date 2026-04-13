@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/08 17:52:38 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/21 19:17:47 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 20:54:04 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dsize)
 	y = len_dst;
 	if (dsize <= len_dst)
 		return (dsize + len_src);
-	while (src[i] && i < len_dst - 1)
+	while (src[i] && i < dsize - len_dst - 1)
 	{
 		dst[y] = src[i];
 		i++;
@@ -36,6 +36,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dsize)
 	dst[y] = '\0';
 	return (len_dst + len_src);
 }
-
-/* Concatene src a la fin de dst dans la limite de dsize octets.
-** Retourne la longueur totale que le resultat aurait du avoir. */

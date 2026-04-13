@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/16 10:18:31 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/16 10:18:33 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 20:20:09 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	t_list	*new_lst;
 	t_list	*node;
 
-	if (!lst)
-		return (NULL);
 	new_lst = NULL;
 	while (lst)
 	{
@@ -33,7 +31,3 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_lst);
 }
-
-/* Itere sur la liste,
-	applique f a chaque contenu et retourne la nouvelle liste.
-** Utilise del pour liberer en cas d'echec d'allocation. */

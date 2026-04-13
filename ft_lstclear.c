@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/16 10:14:33 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/16 10:14:37 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 20:19:48 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,3 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 	}
 	*lst = NULL;
 }
-
-/* Libere tous les noeuds de la liste avec del et free.
-** Met le pointeur de liste a NULL. */

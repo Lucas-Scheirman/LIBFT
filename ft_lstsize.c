@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/16 10:03:03 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/16 10:04:28 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 15:41:57 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,3 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (i);
 }
-
-/* Retourne le nombre de noeuds dans la liste. */

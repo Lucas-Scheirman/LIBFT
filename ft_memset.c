@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/08 07:33:06 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/18 13:14:54 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 17:07:33 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,3 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-
-/* Remplit les n premiers octets de s avec la valeur c.
-** Retourne un pointeur sur s. */

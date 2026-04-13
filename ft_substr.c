@@ -38,6 +38,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	tab[i] = 0;
 	return (tab);
 }
-
-/* Alloue et retourne une sous-chaine de s,
-	depuis start sur len caracteres max. */

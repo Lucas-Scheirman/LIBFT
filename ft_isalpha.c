@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/07 15:28:32 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/16 12:40:10 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 16:14:07 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,3 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
-
-/* Retourne 1 si c est une lettre alphabetique, 0 sinon. */

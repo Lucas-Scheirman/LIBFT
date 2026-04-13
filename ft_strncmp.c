@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/09 16:53:24 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/18 13:28:31 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 18:08:11 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-
-/* Compare les n premiers caracteres de s1 et s2.
-** Retourne 0 si egaux, positif si s1 > s2, negatif si s1 < s2. */

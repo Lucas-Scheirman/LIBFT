@@ -18,7 +18,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	size_t	len_s;
 	char	*new_string;
 
-	if (!s)
+	if (!s && !f)
 		return (NULL);
 	i = 0;
 	len_s = ft_strlen(s);
@@ -33,6 +33,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	new_string[i] = 0;
 	return (new_string);
 }
-
-/* Applique f a chaque caractere de s avec son index,
-	retourne la nouvelle string. */

@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/07 15:28:25 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/16 12:40:15 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 16:15:05 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,3 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
-
-/* Retourne 1 si c est un caractere ASCII valide (0-127), 0 sinon. */

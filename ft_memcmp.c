@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/09 18:23:20 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/18 13:18:37 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 17:08:56 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-/* Compare les n premiers octets de s1 et s2.
-** Retourne 0 si egaux, positif si s1 > s2, negatif si s1 < s2. */

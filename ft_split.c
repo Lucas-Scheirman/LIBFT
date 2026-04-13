@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/16 09:47:33 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/18 19:43:17 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 17:44:02 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -117,7 +117,3 @@ char	**ft_split(char const *s, char c)
 	init_tab(word, c, multiple_str, s);
 	return (multiple_str);
 }
-
-/* Alloue et retourne un tableau de strings obtenu
-**en decoupant s avec c comme delimiteur.
-** Le tableau est termine par NULL. */

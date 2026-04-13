@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/08 08:28:16 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/18 13:13:07 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 20:10:27 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-/* Copie n octets depuis src vers dest.
-** Les zones memoire ne doivent pas se chevaucher. */

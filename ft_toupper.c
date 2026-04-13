@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/09 08:58:49 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/16 12:48:12 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/13 18:30:40 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,3 @@ int	ft_toupper(int c)
 		c -= 32;
 	return (c);
 }
-
-/* Convertit le caractere c en majuscule si c'est une minuscule. */
