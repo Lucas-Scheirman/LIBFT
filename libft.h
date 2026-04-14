@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/14 13:54:41 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/03/21 12:06:11 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/14 15:22:19 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include <stdint.h>
 # include <stdlib.h>
 # include <unistd.h>
-
+# include <stdio.h>
 typedef struct s_list
 {
 	void			*content;

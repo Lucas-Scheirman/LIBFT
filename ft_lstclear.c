@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/16 10:14:33 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/04/13 20:19:48 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/14 15:13:39 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*next;
 
+	if(!lst || !del)
+		return;
 	while (*lst)
 	{
 		next = (*lst)->next;

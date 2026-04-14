@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/08 17:52:38 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/04/13 20:54:04 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/14 17:09:09 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,4 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dsize)
 	dst[y] = '\0';
 	return (len_dst + len_src);
 }
+

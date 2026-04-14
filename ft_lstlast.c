@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/16 10:05:38 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/04/13 20:55:43 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/14 18:06:09 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,16 @@ t_list	*ft_lstlast(t_list *lst)
 		lst = lst->next;
 	return (lst);
 }
+/*
+int main()
+{
+	t_list *lst;
+	t_list *lst2;
+
+	lst = ft_lstnew("HELLO");
+	lst2 = ft_lstnew("HELLA");
+	lst -> next = lst2;
+
+	printf("%s",(char *)ft_lstlast (lst) -> content);
+}*/
+
