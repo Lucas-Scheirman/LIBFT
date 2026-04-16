@@ -24,13 +24,13 @@ t_list	*ft_lstnew(void *content)
 	return (list);
 }
 /*
-int main()
+int	main(void)
 {
-    t_list *node = ft_lstnew("hello");
-    if (!node)
-        return (1);
+	t_list *node = ft_lstnew("hello");
+	if (!node)
+		return (1);
 
-    printf("%s\n", (char *)node->content);
-    free(node);
-    return (0);
+	printf("%s\n", (char *)node->content);
+	free(node);
+	return (0);
 }*/

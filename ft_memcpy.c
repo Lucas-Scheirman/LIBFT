@@ -6,7 +6,7 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/08 08:28:16 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/04/13 20:10:27 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/15 16:13:55 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	unsigned char		*str1;
 	const unsigned char	*str2;
 
+	if (!dest && !src)
+		return (NULL);
 	if (n == 0)
 		return (dest);
 	str1 = (unsigned char *)dest;

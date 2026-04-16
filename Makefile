@@ -51,6 +51,8 @@ SRCS = ft_isalpha.c \
 
 OBJS = $(SRCS:.c=.o)
 
+bonus: all
+
 all: $(NAME)
 
 $(NAME): $(OBJS)

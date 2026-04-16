@@ -36,4 +36,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dsize)
 	dst[y] = '\0';
 	return (len_dst + len_src);
 }
-

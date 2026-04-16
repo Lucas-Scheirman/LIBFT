@@ -25,7 +25,7 @@ int	ft_lstsize(t_list *lst)
 	return (i);
 }
 /*
-int main()
+int	main(void)
 {
 	t_list *lst;
 	t_list *lst2;

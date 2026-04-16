@@ -6,17 +6,18 @@
 /*   By: lscheirm <lscheirm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/14 13:54:41 by lscheirm          #+#    #+#             */
-/*   Updated: 2026/04/14 15:22:19 by lscheirm         ###   ########.fr       */
+/*   Updated: 2026/04/15 16:34:14 by lscheirm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include <stddef.h>
 # include <stdint.h>
 # include <stdlib.h>
 # include <unistd.h>
-# include <stdio.h>
+
 typedef struct s_list
 {
 	void			*content;
